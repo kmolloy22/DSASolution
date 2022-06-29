@@ -5,7 +5,11 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "arrayexamples", "arrayexamples", "{603D6D92-B74F-49CE-B6A8-D8FA9B52825E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays-Example01", "arrayexamples\Arrays-Example01\Arrays-Example01.csproj", "{D781094C-24C2-4CA8-80DC-CC60581DD82E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays-Example01", "arrayexamples\Arrays-Example01\Arrays-Example01.csproj", "{D781094C-24C2-4CA8-80DC-CC60581DD82E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "linkedlistexample", "linkedlistexample", "{953C0A74-C274-4DF9-A377-7A505232DFD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedLists-Example01", "linkedlistexample\LinkedLists-Example01\LinkedLists-Example01.csproj", "{4C76C8F6-E6A6-491C-8BB4-50C877196495}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{D781094C-24C2-4CA8-80DC-CC60581DD82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D781094C-24C2-4CA8-80DC-CC60581DD82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D781094C-24C2-4CA8-80DC-CC60581DD82E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C76C8F6-E6A6-491C-8BB4-50C877196495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C76C8F6-E6A6-491C-8BB4-50C877196495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C76C8F6-E6A6-491C-8BB4-50C877196495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C76C8F6-E6A6-491C-8BB4-50C877196495}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D781094C-24C2-4CA8-80DC-CC60581DD82E} = {603D6D92-B74F-49CE-B6A8-D8FA9B52825E}
+		{4C76C8F6-E6A6-491C-8BB4-50C877196495} = {953C0A74-C274-4DF9-A377-7A505232DFD6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBBEFFCA-52DD-4649-9CE9-C12BE1A4374C}
