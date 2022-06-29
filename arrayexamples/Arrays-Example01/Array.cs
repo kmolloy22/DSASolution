@@ -50,7 +50,7 @@
         public int IndexOf(int number)
         {
             // O(1) - best case scenario (first index)
-            // 0(n) - worst case scenario (needs to iterate through entire array)
+            // O(n) - worst case scenario (needs to iterate through entire array)
             for (int i = 0; i < count; i++)
             {
                 if (items[i] == number)
