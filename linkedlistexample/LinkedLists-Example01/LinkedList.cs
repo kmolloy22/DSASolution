@@ -137,6 +137,31 @@
             return -1;
         }
 
+        public int GetKthFromTheEnd(int k)
+        {
+            if (IsEmpty())
+                throw new ArgumentOutOfRangeException();
+
+            var a = first;
+            var b = first;
+
+            for (int i = 0; i < k - 1; i++)
+            {
+                b = b.next;
+                if (b == null)
+                    throw new ArgumentOutOfRangeException();
+            }
+                
+
+            while(b != last)
+            {
+                a = a.next;
+                b = b.next;
+            }
+
+            return a.value;
+        }
+
         #region private methods
         private bool IsEmpty() => first == null;
 

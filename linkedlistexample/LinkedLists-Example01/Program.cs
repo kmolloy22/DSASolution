@@ -30,6 +30,17 @@ Console.WriteLine($"Size: {list.Size()}");
 array = list.ToArray();
 PrintArray(array);
 
+list.AddLast(30);
+list.AddLast(40);
+list.AddLast(50);
+Console.WriteLine();
+array = list.ToArray();
+PrintArray(array);
+
+Console.WriteLine();
+Console.WriteLine(list.GetKthFromTheEnd(6));
+
+
 Console.WriteLine();
 
 static void PrintArray(int[] array)
