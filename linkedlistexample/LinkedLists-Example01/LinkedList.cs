@@ -64,6 +64,13 @@
             size--;
         }
 
+        public int GetFirst()
+        {
+            if (IsEmpty())
+                return 0;
+
+            return first.value;
+        }
         // removeLast
         public void RemoveLast()
         {
@@ -80,6 +87,14 @@
             }
             size--;
         }
+
+        public int GetLast()
+        {
+            if(IsEmpty())
+                return -1;
+            return last.value;
+        }
+
 
         // contains
         public bool Contains(int item) => IndexOf(item) != -1;
