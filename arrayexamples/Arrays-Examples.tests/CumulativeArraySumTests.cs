@@ -2,6 +2,7 @@ using CumulativeArraySumExample;
 
 namespace Arrays_Examples.Tests
 {
+    [TestFixture]
     public class CumulativeArraySumTests
     {
         private CumulativeArraySum _cumulativeArraySum;

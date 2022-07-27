@@ -2,6 +2,7 @@
 
 namespace Arrays_Examples.Tests
 {
+    [TestFixture]
     public class RemoveDuplicatesTests
     {
         private RemoveDuplicates _removeDuplicates;
