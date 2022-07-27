@@ -1,12 +1,25 @@
-﻿namespace Stacks_Example01
+﻿using System.Text;
+
+namespace Stacks_Example01
 {
     public class StringReverser
     {
         public string Reverse(string input)
         {
-            Stack<char> stack = new Stack<char>();
+            if (string.IsNullOrWhiteSpace(input))
+                throw new ArgumentNullException();
 
-            return string.Empty;
+            Stack<char> stack = new();
+
+            foreach (var item in input.ToCharArray())
+                stack.Push(item);
+
+            var stringBuilder = new StringBuilder();
+            while(stack.Count > 0)
+                stringBuilder.Append(stack.Pop());
+
+            
+            return stringBuilder.ToString();
         }
     }
 }

@@ -10,9 +10,22 @@ namespace Stacks_Example01.Tests
         }
 
         [Test]
-        public void GetReversedString_UsingStack_ReturnString()
+        [TestCase("abcde", "edcba")]
+        [TestCase("xyz", "zyx")]
+        public void GetReversedString_UsingStack_ReturnString(string input, string expectedResult)
         {
-            Assert.Pass();
+            var result = _reverser.Reverse(input);
+
+            Assert.That(result, Is.EqualTo(expectedResult));
+        }
+
+        [Test]
+        [TestCase(null)]
+        [TestCase("")]
+        [TestCase(" ")]
+        public void GetReversedString_InvalidError_ThrowArgumentNullException(string input)
+        {
+            Assert.That(() => _reverser.Reverse(input), Throws.ArgumentNullException);
         }
     }
 }
