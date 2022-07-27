@@ -36,7 +36,7 @@
         {
             // validate the index
             if(index < 0 || index >= count)
-                throw new ArgumentOutOfRangeException("index");
+                throw new ArgumentOutOfRangeException(nameof(index));
 
             for (int i = index; i < count; i++)
             {
@@ -106,7 +106,7 @@
 
         }
 
-        public void print()
+        public void Print()
         {
             for (int i = 0; i < count; i++)
             {

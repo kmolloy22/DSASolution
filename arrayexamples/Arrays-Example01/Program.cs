@@ -6,10 +6,10 @@ numbers.Insert(20);
 numbers.Insert(30);
 numbers.Insert(40);
 numbers.Insert(50);
-numbers.print();
+numbers.Print();
 
 numbers.RemoveAt(3);
-numbers.print();
+numbers.Print();
 
 Console.WriteLine(numbers.IndexOf(10));
 Console.WriteLine(numbers.IndexOf(40));
@@ -19,13 +19,13 @@ Console.WriteLine(numbers.Max());
 Console.WriteLine();
 
 numbers.InsertAt(100, 1);
-numbers.print();
+numbers.Print();
 
 numbers.Reverse();
-numbers.print();
+numbers.Print();
 
 var otherInput = 1;
 var otherArray = new Arrays_Example01.Array(otherInput);
 otherArray.Insert(40);
-otherArray.print();
+otherArray.Print();
 
