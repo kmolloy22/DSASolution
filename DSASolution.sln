@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CumulativeArraySum-Example"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays-Examples.Tests", "arrayexamples\Arrays-Examples.tests\Arrays-Examples.Tests.csproj", "{ECA9005A-F361-438D-805D-DCF754B5CF77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicates-Example", "arrayexamples\RemoveDuplicates-Example\RemoveDuplicates-Example.csproj", "{A2D602CE-93A4-4AF1-8580-F9C234CA4601}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{ECA9005A-F361-438D-805D-DCF754B5CF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECA9005A-F361-438D-805D-DCF754B5CF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECA9005A-F361-438D-805D-DCF754B5CF77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D602CE-93A4-4AF1-8580-F9C234CA4601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D602CE-93A4-4AF1-8580-F9C234CA4601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D602CE-93A4-4AF1-8580-F9C234CA4601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D602CE-93A4-4AF1-8580-F9C234CA4601}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{C976EA3A-CDE2-488E-941D-C133BB5DB01A} = {24580755-D106-4A9C-A634-ACD33CE970B2}
 		{81AB146A-D7D9-46FD-A2D3-ADBB8B6DFE18} = {603D6D92-B74F-49CE-B6A8-D8FA9B52825E}
 		{ECA9005A-F361-438D-805D-DCF754B5CF77} = {603D6D92-B74F-49CE-B6A8-D8FA9B52825E}
+		{A2D602CE-93A4-4AF1-8580-F9C234CA4601} = {603D6D92-B74F-49CE-B6A8-D8FA9B52825E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBBEFFCA-52DD-4649-9CE9-C12BE1A4374C}
