@@ -1,4 +1,6 @@
-﻿var input = 3;
+﻿//using Arrays_Example;
+
+var input = 3;
 
 var numbers = new Arrays_Example01.Array(input);
 numbers.Insert(10);

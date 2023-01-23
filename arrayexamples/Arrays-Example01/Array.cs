@@ -9,6 +9,16 @@
         {
             items = new int[length];
         }
+        
+        public int Count()
+        {
+            return count;
+        }
+
+        public int[] Items()
+        {
+            return items;
+        }
 
         public void Insert(int number)
         {
