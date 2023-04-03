@@ -48,7 +48,9 @@
             if(index < 0 || index >= count)
                 throw new ArgumentOutOfRangeException(nameof(index));
 
-            for (int i = index; i < count; i++)
+            //var arr = new Array(items[count - 1]);
+
+            for (int i = index; i < count - 1; i++)
             {
                 items[i] = items[i + 1];
             }

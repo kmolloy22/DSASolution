@@ -6,11 +6,11 @@ var numbers = new Arrays_Example01.Array(input);
 numbers.Insert(10);
 numbers.Insert(20);
 numbers.Insert(30);
-numbers.Insert(40);
-numbers.Insert(50);
+//numbers.Insert(40);
+//numbers.Insert(50);
 numbers.Print();
 
-numbers.RemoveAt(3);
+numbers.RemoveAt(1);
 numbers.Print();
 
 Console.WriteLine(numbers.IndexOf(10));

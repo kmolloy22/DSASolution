@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Arrays_Examples.tests
+﻿namespace Arrays_Examples.tests
 {
     [TestFixture]
     public class ArrayTests
@@ -14,7 +8,7 @@ namespace Arrays_Examples.tests
         {
             // Arrange
             var array = new Arrays_Example01.Array(1);
-        
+
             // Act
             array.Insert(5);
             var items = array.Items();
@@ -80,9 +74,28 @@ namespace Arrays_Examples.tests
             Assert.AreEqual(5, items[0]);
             Assert.AreEqual(10, items[1]);
             Assert.AreEqual(15, items[2]);
-            Assert.AreEqual(5, items[3]);
-            Assert.AreEqual(10, items[4]);
-            Assert.AreEqual(15, items[5]);
+            Assert.AreEqual(20, items[3]);
+            Assert.AreEqual(25, items[4]);
+            Assert.AreEqual(30, items[5]);
+        }
+
+        [Test]
+        public void RemoveAt_WithValidIndex_RemovesItem()
+        {
+            // Arrange
+            var array = new Arrays_Example01.Array(3);
+            array.Insert(5);
+            array.Insert(10);
+            array.Insert(15);
+
+            // Act
+            array.RemoveAt(1);
+            var items = array.Items();
+
+            // Assert
+            Assert.AreEqual(2, array.Count());
+            Assert.AreEqual(5, items[0]);
+            Assert.AreEqual(15, items[1]);
         }
     }
 }
