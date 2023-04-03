@@ -29,11 +29,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BalancedExpression-Example"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "queues", "queues", "{39515EFE-C493-457F-96D1-772C1A42815B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseQueue-Example", "queues\ReverseQueue-Example\ReverseQueue-Example.csproj", "{2D970226-808A-4AD9-BC05-65FF0C6F964B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseQueue-Example", "queues\ReverseQueue-Example\ReverseQueue-Example.csproj", "{2D970226-808A-4AD9-BC05-65FF0C6F964B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queues.Tests", "queues\Queues.Tests\Queues.Tests.csproj", "{E5510AC5-6210-4FBB-B374-3F37BF6C9AB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queues.Tests", "queues\Queues.Tests\Queues.Tests.csproj", "{E5510AC5-6210-4FBB-B374-3F37BF6C9AB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructQueueWithArray-Example", "queues\ConstructQueueWithArray-Example\ConstructQueueWithArray-Example.csproj", "{6665F8AF-02D1-408D-BE95-E1FFCB81004C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructQueueWithArray-Example", "queues\ConstructQueueWithArray-Example\ConstructQueueWithArray-Example.csproj", "{6665F8AF-02D1-408D-BE95-E1FFCB81004C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stringexamples", "stringexamples", "{2852D184-F18B-43D6-9819-FC3CA3F27822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String-Examples01", "stringexamples\String-Examples01\String-Examples01.csproj", "{127D97A6-F245-49F2-B59D-265F549B58FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String-Examples01.Tests", "stringexamples\String-Examples01.Tests\String-Examples01.Tests.csproj", "{38614A39-B99D-47DF-A81E-576585E87BB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +95,14 @@ Global
 		{6665F8AF-02D1-408D-BE95-E1FFCB81004C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6665F8AF-02D1-408D-BE95-E1FFCB81004C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6665F8AF-02D1-408D-BE95-E1FFCB81004C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127D97A6-F245-49F2-B59D-265F549B58FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127D97A6-F245-49F2-B59D-265F549B58FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127D97A6-F245-49F2-B59D-265F549B58FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127D97A6-F245-49F2-B59D-265F549B58FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38614A39-B99D-47DF-A81E-576585E87BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38614A39-B99D-47DF-A81E-576585E87BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38614A39-B99D-47DF-A81E-576585E87BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38614A39-B99D-47DF-A81E-576585E87BB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +120,8 @@ Global
 		{2D970226-808A-4AD9-BC05-65FF0C6F964B} = {39515EFE-C493-457F-96D1-772C1A42815B}
 		{E5510AC5-6210-4FBB-B374-3F37BF6C9AB1} = {39515EFE-C493-457F-96D1-772C1A42815B}
 		{6665F8AF-02D1-408D-BE95-E1FFCB81004C} = {39515EFE-C493-457F-96D1-772C1A42815B}
+		{127D97A6-F245-49F2-B59D-265F549B58FD} = {2852D184-F18B-43D6-9819-FC3CA3F27822}
+		{38614A39-B99D-47DF-A81E-576585E87BB2} = {2852D184-F18B-43D6-9819-FC3CA3F27822}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBBEFFCA-52DD-4649-9CE9-C12BE1A4374C}
