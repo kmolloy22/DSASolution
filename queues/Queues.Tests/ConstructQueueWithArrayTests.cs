@@ -1,21 +1,21 @@
-﻿using ConstructQueueWithArray_Example;
+﻿//using ConstructQueueWithArray_Example;
 
-namespace Queues.Tests
-{
-    public class ConstructQueueWithArrayTests
-    {
-        private ConstructQueueWithArray _constructQueue;
+//namespace Queues.Tests
+//{
+//    public class ConstructQueueWithArrayTests
+//    {
+//        private ConstructQueueWithArray _constructQueue;
 
-        [SetUp]
-        public void Setup()
-        {
-            _constructQueue = new ConstructQueueWithArray();
-        }
+//        [SetUp]
+//        public void Setup()
+//        {
+//            _constructQueue = new ConstructQueueWithArray();
+//        }
 
-        [Test]
-        public void Test()
-        {
+//        [Test]
+//        public void Test()
+//        {
 
-        }
-    }
-}
+//        }
+//    }
+//}

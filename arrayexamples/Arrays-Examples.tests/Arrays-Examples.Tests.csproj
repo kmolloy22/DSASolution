@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>Arrays_Examples.tests</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -21,6 +21,7 @@
     <ProjectReference Include="..\Arrays-Example01\Arrays-Example01.csproj" />
     <ProjectReference Include="..\CumulativeArraySum\CumulativeArraySum-Example.csproj" />
     <ProjectReference Include="..\RemoveDuplicates-Example\RemoveDuplicates-Example.csproj" />
+    <ProjectReference Include="..\TwoSum-Example\TwoSum-Example.csproj" />
   </ItemGroup>
 
 </Project>
