@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Arrays-Example01\Arrays-Example01.csproj" />
     <ProjectReference Include="..\CumulativeArraySum\CumulativeArraySum-Example.csproj" />
+    <ProjectReference Include="..\HasDuplicate-Example\HasDuplicate-Example.csproj" />
     <ProjectReference Include="..\RemoveDuplicates-Example\RemoveDuplicates-Example.csproj" />
     <ProjectReference Include="..\TwoSum-Example\TwoSum-Example.csproj" />
   </ItemGroup>

@@ -1,0 +1,37 @@
+﻿Has Duplicate: Brute Force vs HashSet
+
+Brute-Force Approach (`HasDuplicateNumbersBruteForce`)
+- Compare each number with every number after it using nested loops.
+- If any pair matches, return `true`.
+- If all comparisons finish, return `false`.
+- Time complexity: `O(n^2)`
+- Space complexity: `O(1)`
+
+Why `HashSet<T>` Works
+- `HashSet<T>` stores unique values only.
+- Calling `Add(value)`:
+  - returns `true` if the value was not already present,
+  - returns `false` if the value already exists.
+- This return value allows direct duplicate detection.
+
+Optimized HashSet Approach (`HasDuplicateNumbersHashSet`)
+1. Create an empty `HashSet<int>` named `seenNumbers`.
+2. Iterate through the array with `foreach`.
+3. For each number:
+   - if `seenNumbers.Add(num)` returns `false`, return `true` (duplicate found).
+4. If iteration completes, return `false` (no duplicates).
+
+Why `foreach` instead of `for` here
+- We only need each value, not the index.
+- `foreach` expresses intent more clearly: “process every element.”
+- Fewer moving parts (no index variable/increment), which reduces loop mistakes.
+- Readability improves while performance remains effectively equivalent for this scenario.
+
+Complexity (HashSet approach)
+- Average time complexity: `O(n)`
+- Worst-case time complexity: `O(n^2)` (rare, due to heavy hash collisions)
+- Space complexity: `O(n)`
+
+Examples
+- Input: `[1, 2, 3, 4, 2]` -> Output: `true`
+- Input: `[1, 2, 3, 4]` -> Output: `false`

@@ -1,0 +1,35 @@
+﻿
+Two Sum: Brute Force vs Optimized Dictionary
+
+Brute-Force Idea
+Use two nested loops to check each pair of indices (i, j), where i < j.
+If nums[i] + nums[j] == target, return [i, j].
+
+Complexity
+- Time: O(n²)
+  - Worst case is about n(n - 1) / 2 pair checks.
+  - For n = 1000, that is 499,500 checks (quadratic growth).
+- Space: O(1)
+  - No extra data structure is required.
+
+Why Optimize?
+- n <= 1000 means O(n²) is acceptable, but not ideal.
+- Values can be large and negative, so hash-based lookup works well.
+- Only one valid answer exists, so we can return as soon as we find it.
+
+Optimized Idea (Dictionary)
+For each index i:
+1. Compute complement = target - nums[i].
+2. Check whether complement was already seen.
+3. If yes, return [complementIndex, i].
+4. If no, store nums[i] -> i in the dictionary.
+
+Why Dictionary?
+Dictionary<int, int> stores:
+- key: value from nums
+- value: index where it appeared
+
+This gives O(1) average lookup, instead of O(n) scanning.
+
+Key Insight
+Instead of searching for the second number directly, compute the number you need (the complement) and check if it already exists.
