@@ -84,5 +84,3 @@ Common signals:
 This works because the best sell decision at any index depends only on the minimum earlier price.  
 No earlier element needs to be revisited.
 ```
-
-If you want, I can also provide a compact version for README style.
