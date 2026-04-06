@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Arrays-Example01\Arrays-Example01.csproj" />
+    <ProjectReference Include="..\BestTimeToBuySellStock-Example\BestTimeToBuySellStock-Example.csproj" />
     <ProjectReference Include="..\CumulativeArraySum\CumulativeArraySum-Example.csproj" />
     <ProjectReference Include="..\HasDuplicate-Example\HasDuplicate-Example.csproj" />
     <ProjectReference Include="..\RemoveDuplicates-Example\RemoveDuplicates-Example.csproj" />
