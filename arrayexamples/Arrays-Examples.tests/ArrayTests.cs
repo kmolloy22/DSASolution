@@ -1,4 +1,4 @@
-﻿namespace Arrays_Examples.tests
+﻿namespace Arrays_Examples.Tests
 {
     [TestFixture]
     public class ArrayTests
