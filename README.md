@@ -24,6 +24,7 @@ Folder: `arrayexamples/` | Tests: `Arrays-Examples.tests`
 | Cumulative Array Sum | `CumulativeArraySum` |
 | Best Time to Buy and Sell Stock | `BestTimeToBuySellStock-Example` |
 | Check Palindrome Array | `CheckPalindromeArray` |
+| Find Missing Number | `FindMissingNumber-Example` |
 | Array basics | `Arrays-Example01` |
 
 ## Strings

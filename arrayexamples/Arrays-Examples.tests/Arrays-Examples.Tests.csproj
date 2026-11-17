@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
-    <RootNamespace>Arrays_Examples.tests</RootNamespace>
+    <RootNamespace>Arrays_Examples.Tests</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
@@ -22,6 +22,7 @@
     <ProjectReference Include="..\BestTimeToBuySellStock-Example\BestTimeToBuySellStock-Example.csproj" />
     <ProjectReference Include="..\CheckPalindromeArray\CheckPalindromeArray-Example.csproj" />
     <ProjectReference Include="..\CumulativeArraySum\CumulativeArraySum-Example.csproj" />
+    <ProjectReference Include="..\FindMissingNumber-Example\FindMissingNumber-Example.csproj" />
     <ProjectReference Include="..\HasDuplicate-Example\HasDuplicate-Example.csproj" />
     <ProjectReference Include="..\RemoveDuplicates-Example\RemoveDuplicates-Example.csproj" />
     <ProjectReference Include="..\TwoSum-Example\TwoSum-Example.csproj" />

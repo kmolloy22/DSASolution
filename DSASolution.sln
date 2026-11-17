@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimeToBuySellStock-Exam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPalindromeArray-Example", "arrayexamples\CheckPalindromeArray\CheckPalindromeArray-Example.csproj", "{DC574938-50C3-446A-9344-7ED3F7AECED0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMissingNumber-Example", "arrayexamples\FindMissingNumber-Example\FindMissingNumber-Example.csproj", "{CEB8B078-0D2E-42BD-B54D-66186FF75AAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{DC574938-50C3-446A-9344-7ED3F7AECED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC574938-50C3-446A-9344-7ED3F7AECED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC574938-50C3-446A-9344-7ED3F7AECED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB8B078-0D2E-42BD-B54D-66186FF75AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB8B078-0D2E-42BD-B54D-66186FF75AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB8B078-0D2E-42BD-B54D-66186FF75AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB8B078-0D2E-42BD-B54D-66186FF75AAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,6 +159,7 @@ Global
 		{AD653FA8-FEDD-44B3-A901-A67F2308D30B} = {603D6D92-B74F-49CE-B6A8-D8FA9B52825E}
 		{B0015FC2-540A-4C52-85BA-C35DE5CC5795} = {603D6D92-B74F-49CE-B6A8-D8FA9B52825E}
 		{DC574938-50C3-446A-9344-7ED3F7AECED0} = {603D6D92-B74F-49CE-B6A8-D8FA9B52825E}
+		{CEB8B078-0D2E-42BD-B54D-66186FF75AAA} = {603D6D92-B74F-49CE-B6A8-D8FA9B52825E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBBEFFCA-52DD-4649-9CE9-C12BE1A4374C}
