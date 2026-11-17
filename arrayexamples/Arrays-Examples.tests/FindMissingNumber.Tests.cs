@@ -16,6 +16,19 @@ public class FindMissingNumberTests
     [Test]
     [TestCase(new int[] { 1, 2, 4, 5 }, 3)]
     [TestCase(new int[] { 2, 3, 1, 5 }, 4)]
+    [TestCase(new int[] { 1, 2, 3, 4 }, 5)]
+    [TestCase(new int[] { 2, 3, 4, 5 }, 1)]
+    [TestCase(new int[] { 1 }, 2)]
+    [TestCase(new int[] { 2 }, 1)]
+    public void FindMissingNumber_BruteForce_ReturnInt(int[] nums, int expectedResult)
+    {
+        var result = _missingNumber.FindMissingNumberBruteForce(nums);
+        Assert.That(result, Is.EqualTo(expectedResult));
+    }
+
+    [Test]
+    [TestCase(new int[] { 1, 2, 4, 5 }, 3)]
+    [TestCase(new int[] { 2, 3, 1, 5 }, 4)]
     [TestCase(new int[] { 1, 2, 3, 4}, 5)]
     [TestCase(new int[] { 2, 3, 4, 5 }, 1)]
     [TestCase(new int[] { 1 }, 2)]
