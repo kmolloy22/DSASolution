@@ -1,4 +1,9 @@
 <Solution>
+  <Folder Name="/build/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
   <Folder Name="/fundamentals/" />
   <Folder Name="/fundamentals/arrayexamples/">
     <Project Path="fundamentals/arrayexamples/Arrays-Example01/Arrays-Example01.csproj" />
@@ -11,25 +16,35 @@
     <Project Path="fundamentals/arrayexamples/TwoSum-Example/TwoSum-Example.csproj" />
   </Folder>
   <Folder Name="/fundamentals/arrayexamples/tests/">
-    <Project Path="fundamentals/arrayexamples/Arrays-Examples.tests/Arrays-Examples.Tests.csproj" />
+    <Project Path="fundamentals/arrayexamples/tests/Arrays-Examples.Tests/Arrays-Examples.Tests.csproj" />
   </Folder>
   <Folder Name="/fundamentals/linkedlistexample/">
-    <Project Path="fundamentals/linkedlistexample/LinkedLists-Example01.Tests/LinkedLists-Example01.Tests.csproj" />
     <Project Path="fundamentals/linkedlistexample/LinkedLists-Example01/LinkedLists-Example01.csproj" />
+  </Folder>
+  <Folder Name="/fundamentals/linkedlistexample/tests/">
+    <Project Path="fundamentals/linkedlistexample/tests/LinkedLists-Example01.Tests/LinkedLists-Example01.Tests.csproj" />
   </Folder>
   <Folder Name="/fundamentals/queues/">
     <Project Path="fundamentals/queues/ConstructQueueWithArray-Example/ConstructQueueWithArray-Example.csproj" />
-    <Project Path="fundamentals/queues/Queues.Tests/Queues.Tests.csproj" />
     <Project Path="fundamentals/queues/ReverseQueue-Example/ReverseQueue-Example.csproj" />
+  </Folder>
+  <Folder Name="/fundamentals/queues/tests/">
+    <Project Path="fundamentals/queues/tests/Queues.Tests/Queues.Tests.csproj" />
   </Folder>
   <Folder Name="/fundamentals/stacks/">
     <Project Path="fundamentals/stacks/BalancedExpression-Example/BalancedExpression-Example.csproj" />
-    <Project Path="fundamentals/stacks/Stacks-Example01.Tests/Stacks-Example01.Tests.csproj" />
     <Project Path="fundamentals/stacks/Stacks-Example01/Stacks-Example01.csproj" />
   </Folder>
+  <Folder Name="/fundamentals/stacks/tests/">
+    <Project Path="fundamentals/stacks/tests/Stacks-Example01.Tests/Stacks-Example01.Tests.csproj" />
+  </Folder>
   <Folder Name="/fundamentals/stringexamples/">
-    <Project Path="fundamentals/stringexamples/String-Examples01.Tests/String-Examples01.Tests.csproj" />
     <Project Path="fundamentals/stringexamples/String-Examples01/String-Examples01.csproj" />
   </Folder>
-  <Folder Name="/visualizer/" />
+  <Folder Name="/fundamentals/stringexamples/tests/">
+    <Project Path="fundamentals/stringexamples/tests/String-Examples01.Tests/String-Examples01.Tests.csproj" />
+  </Folder>
+  <Folder Name="/visualizer/">
+    <Project Path="visualizer/DSA.Core/DSA.Core.csproj" Id="69fe01df-6005-4609-b692-c9121af5bbb2" />
+  </Folder>
 </Solution>
